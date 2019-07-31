@@ -9,7 +9,7 @@ We hope you enjoy playing the game.
 ## Basic Rules to get started
 We assume familiarity with the rules of Texas Hold 'em.
 
-Even if this game involves only rudimentary essentials of quantum computing, people that are new to the field will find that it takes some time to understand and learn the "rules".
+Even if this game involves only rudimentary essentials of quantum computing, people that are new to the field will find that it takes some time to get used to the rule set. This is why we have created a game in the first place, because learning should be fun!
 
 The basic entity of a quantum computer is called a quantum bit or qubit. While a classical bit can be either 0 or 1, a qubit can exist in states that is a combination of 0 and 1. This is called a "superposition".
 An example of a state that is in superposition is the state  denoted by |+>.
