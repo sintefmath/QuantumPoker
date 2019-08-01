@@ -11,7 +11,7 @@ We assume familiarity with the rules of Texas Hold 'em.
 
 Even if this game involves only rudimentary essentials of quantum computing, people that are new to the field will find that it takes some time to get used to the rule set. This is why we have created a game in the first place, because learning should be fun!
 
-The basic entity of a quantum computer is called a quantum bit or qubit. While a classical bit can be either 0 or 1, a qubit can also exist in states that is a combination of both 0 and 1. This is called a "superposition". Qubit states are often written in bra-ket notation, i.e. a qubit in which is in state 1 would be written as |1>. An example of a state that is in superposition is the state  denoted by |+> = |0> + |1>
+The basic entity of a quantum computer is called a quantum bit or qubit. While a classical bit can be either 0 or 1, a qubit can also exist in states that is a combination of both 0 and 1. This is called a "superposition". Qubit states are often written in bra-ket notation, i.e. a qubit in which is in state 1 would be written as |1>. An example of a state that is in superposition is the state  denoted by |+> = |0> + |1>.
 
 In order to obtain information on the state of qubits, they have to be measured. A measurement will collapse the state to a classical bit and return either 0 or 1.
 
