@@ -16,7 +16,7 @@ The basic entity of a quantum computer is called a quantum bit or qubit. While a
 In order to obtain information on the state of qubits, they have to be measured. A measurement will collapse the state to a classical bit and return either 0 or 1.
 
 When one measures a qubit in state |+> one will get the classical state 0 or 1 with equal probability, i.e., 50% each.
-When measuring a qubit in state |0> one will get the classical state 0 with 100% probability, and for |1> one will get 1 with 100% probability. There is also a state denoted by |-> which will get the classical state 0 or 1 with equal probability, i.e., 50% each.
+When measuring a qubit in state |0> one will get the classical state 0 with 100% probability, and for |1> one will get 1 with 100% probability. There is also a state denoted by |-> = |0> - |1> which will get the classical state 0 or 1 with equal probability, i.e., 50% each.
 
 The next important thing to know is that one can change the state of qubits. For instance one can apply what is known as the NOT gate X, which has the following effect <br />
 X|0> = |1> <br />
