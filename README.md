@@ -27,8 +27,8 @@ X|-> = |-> <br />
 Another important operation on qubits is the Hadamard gate H. It has the following effect <br />
 H|0> = |+> <br />
 H|1> = |-> <br />
-H|+> = |+> <br />
-H|-> = |-> <br />
+H|+> = |0> <br />
+H|-> = |1> <br />
 
 The final important operation on one qubit is the Z gate, which has the following rules <br />
 Z|0> = |0> <br />
