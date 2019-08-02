@@ -2,7 +2,7 @@
 This repository contains all the necessary components to learn and play quantum poker. The game works in the same way as Texas hold 'em poker with the main difference being that the community cards are replaced by qubits and the player cards are replaced by quantum logic gates.
 This implementation is a proof-of-concept, but it is fully possible to create apps for mobile phones or tablets.
 
-We hope you enjoy playing the game.
+You can also find more info hhere [ttps://arxiv.org/abs/1908.00044](https://arxiv.org/abs/1908.00044). We hope you enjoy playing the game.
 
 ![Quantum Poker](quantumpoker.jpg)
 
