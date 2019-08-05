@@ -8,6 +8,9 @@ You can also find more info here [ttps://arxiv.org/abs/1908.00044](https://arxiv
 
 ## Basic Rules to get started
 We assume familiarity with the rules of Texas Hold 'em.
+Just as with any other game, one needs to learn a set of rules.
+In order to play the basic version of this game, one does not have to learn or understand any quantum physics.
+It is enough to learn the transformation rules listed below.
 
 Even if this game involves only rudimentary essentials of quantum computing, people that are new to the field will find that it takes some time to get used to the rule set. This is why we have created a game in the first place, because learning should be fun!
 
