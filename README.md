@@ -36,17 +36,17 @@ At the start of the game, a set of 5 qubits is created, where each qubit is in a
 
 This brings us to next important topic, how to change the state of the qubits. This can be achieved by applying a "gate" to one or more qubits. In this game there a total of 4 gates. 
 
-The first gate is the X-gate which changes |1> to |0> and |0> to |1>, but does nothing to |+> and |-> (The interested reader can check this against the definition of |+> and |->. Note that the phase is of no interested, i.e. -|->=|->). We write this as X|0>=|1> and X|1>=|0>.
+The first gate is the X gate which changes |1> to |0> and |0> to |1>, but does nothing to |+> and |-> (The interested reader can check this against the definition of |+> and |->. Note that the phase is of no interested, i.e. -|->=|->). We write this as X|0>=|1> and X|1>=|0>.
 
-We also have the Z-gate which does nothing to the states |0> and |1>, but interchanges |+> and |->, i.e. Z|+>=|-> and Z|->=|+>, and the H gate which interchanges |0> and |+>, and |1> and |->. For a full breakdown see the table below.
+We also have the Z gate which does nothing to the states |0> and |1>, but interchanges |+> and |->, i.e. Z|+>=|-> and Z|->=|+>, and the H gate which interchanges |0> and |+>, and |1> and |->. For a full breakdown see the table below.
 
 Each player is dealt three random gates at the start of the game, which need not be the same as for any other player. When betting ends, each player uses his/her gates to change their qubits, to maximize the chance of measuring 1 for each qubit. The winner of the round is then the player with the most measured 1 between the 5 qubits. 
 
-Another important effect in quantum computing is called entanglement. By this is meant that the measured value of two or more qubits is dependent on one another. For example both qubits might have 50% chance to be measured to either 1 or to 0, but they will always be measured to the same value. However, there is no way to know which value they will collapse to until one actually performs a measurment on at least one of the qubits. 
+Another important effect in quantum computing is called entanglement. By this is meant that the measured value of two or more qubits is dependent on one another. For example both qubits might have a 50% chance to be measured to either 1 or to 0, but they will always be measured to the _same_ value. However, there is no way to know which value they will collapse to until one actually performs a measurment on at least one of the qubits. 
 
 Two qubit states is written as |q<sub>1</sub>q<sub>2</sub>>, where |q<sub>1</sub>> is the state of the first qubit, and |q<sub>2</sub>> is the state of the second. For example the state |00> means both the first and second qubit is in the state |0>. The entangled state described in the previous paragraph could be written as |00> + |11> or |00> - |11>. Both states looks identical if you try to measure them directly, but will behave differently when you start applying gates. One could also have the entangled states |01> + |10> or |01> - |10>, in this case the two qubits will always be measured to different values, but again there is an equal probability for the two possibilities.
 
-The last gate implemented in this game is the controlled not (CX) gate. This applies an X-gate to the second qubit if the first qubit is in the state |1>, and does nothing when the first qubit is in the state |0>. For example the state |00> is unchanged upon apllying a CX-gate as the first qubit is int the state |0>, but the state |10> changes to the state |11>. See the table below for a full overview of different possibilities when applying a CX gate.
+The last gate implemented in this game is the controlled NOT (CX) gate. This applies an X gate to the second qubit if the first qubit is in the state |1>, and does nothing when the first qubit is in the state |0>. For example the state |00> is unchanged upon apllying a CX gate as the first qubit is int the state |0>, but the state |10> changes to the state |11>. See the table below for a full overview of different possibilities when applying a CX gate.
 
 The last thing is to note that all gates used here are their own inverse, i.e. applying a gate twice to a state will give the initial state again. However this is not the case for all possible gates.
 
