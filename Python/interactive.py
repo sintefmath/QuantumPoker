@@ -7,9 +7,9 @@ from os.path import dirname, abspath
 import sys
 sys.path.append(dirname(abspath(__file__)))
 import matplotlib.pyplot as plt
-from helpFiles import getUnentangledTag
-from CustomButton import Button
-from CustomTextBox import TextBox
+from Python.helpFiles import getUnentangledTag
+from Python.CustomButton import Button
+from Python.CustomTextBox import TextBox
 from numpy import array, concatenate, flip
 
 

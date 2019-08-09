@@ -6,9 +6,9 @@
 from os.path import dirname, abspath
 import sys
 sys.path.append(dirname(abspath(__file__)))
-from PokerGame import PokerGame
+from Python.PokerGame import PokerGame
 import matplotlib.pyplot as plt
-from helpFiles import getIntInput
+from Python.helpFiles import getIntInput
 from numpy import array, count_nonzero, nonzero, delete, flip
 
 

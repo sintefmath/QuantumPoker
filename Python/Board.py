@@ -7,7 +7,7 @@ from os.path import dirname, abspath
 import sys
 sys.path.append(dirname(abspath(__file__)))
 from qiskit import ClassicalRegister, QuantumRegister, QuantumCircuit, execute
-from helpFiles import get2DiffRandNum, get3DiffRandNum
+from Python.helpFiles import get2DiffRandNum, get3DiffRandNum
 from qiskit import BasicAer
 from numpy import power, abs, where, array, zeros, empty, absolute, sort
 from numpy.random import randint, seed
