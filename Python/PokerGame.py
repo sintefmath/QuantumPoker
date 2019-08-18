@@ -6,10 +6,10 @@
 from os.path import dirname, abspath
 import sys
 sys.path.append(dirname(abspath(__file__)))
-from interactive import InteractiveContainer
-from Board import Board
-from Buttons import InteractiveButtons
-from helpFiles import distributeGates
+from Python.interactive import InteractiveContainer
+from Python.Board import Board
+from Python.Buttons import InteractiveButtons
+from Python.helpFiles import distributeGates
 from numpy import amax, array, sum, empty, append, argwhere, copy, any, in1d, argsort, zeros
 from qiskit import execute, Aer
 from time import time
