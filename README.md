@@ -91,4 +91,4 @@ CX|0-> = |0-> <br />
 CX|1+> = |1+> <br />
 CX|1-> = |1-> <br />
 
-A related game has been proposed here https://github.com/danielbultrini/Quantum-Hold-em-.
+A related game (by name) has been proposed here https://github.com/danielbultrini/Quantum-Hold-em-.
